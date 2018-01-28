@@ -8,17 +8,18 @@ a {
 	text-decoration: none;
 }
 
+.mySlides {
+	display: block;
+}
+
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+
+.w3-badge {height:13px;width:13px;padding:0}
+
 .intro {
 	background-color: grey;
 	height: 100%;
-}
-
-.intro img {
-	height: 100%;
-	width: 100%;
-	filter: blur(10px);
-	-webkit-filter: blur(10px);
-	-moz-filter: blur(10px);
+	width: 100%; 
 }
 
 .menu {
