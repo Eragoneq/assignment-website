@@ -1,0 +1,63 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: aqua;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.intro {
+	background-color: grey;
+	height: 100%;
+}
+
+.intro img {
+	height: 100%;
+	width: 100%;
+	filter: blur(10px);
+	-webkit-filter: blur(10px);
+	-moz-filter: blur(10px);
+}
+
+.menu {
+	position: sticky;
+	top: 0px;
+	background-color: white;
+	width: 100%;
+	height: 5em;
+	text-align: right;
+}
+
+.menu ul {
+	margin: 0;		
+	padding-left: 18px;
+	padding-right: 18px;
+	height: 100%;
+}
+
+.menu ul li {
+	display: table;
+	float: right;
+	width: 18%;
+	height: 100%;
+	text-align: center;
+}
+
+.menu ul li span:hover{
+	background-color: grey;
+}
+
+.menu ul li span{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 1.5em;
+}
+
+.content {
+	text-align: justify;
+	margin: 0em 10% 0 10%;
+	background-color: gray;
+	height: 200%;
+}
