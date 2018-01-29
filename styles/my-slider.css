@@ -321,7 +321,7 @@ p.ism-badge a.ism-link:hover {
 }
 
 #my-slider .ism-pause-button {
-    width: 32px; height: 32px; background-size: 16px 16px; top: 50%; margin-top: -16px; border-radius: 16px; margin-left: -16px;
+    width: 32px; height: 32px; background-size: 16px 16px; top: 85%; margin-top: -16px; border-radius: 16px; margin-left: -16px;
     color: #fff; background-color: rgba(0, 0, 0, 0.3); background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAc0lEQVR42u3SsQkAIAxFQeP+O38XsBKxMPfKgCQcjqHe1W6YJFeXVNXJuxd3zO4/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAID0RwuEoAh40yYcSQAAAABJRU5ErkJggg==);
 }
 
