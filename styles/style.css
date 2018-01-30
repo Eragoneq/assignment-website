@@ -23,19 +23,34 @@ a {
 	text-align: right;
 }
 
-.menu ul {
-	margin: 0;		
-	padding-left: 18px;
-	padding-right: 18px;
+#logo {
+	font-family: 'Orbitron', sans-serif;
+	position: absolute;
+	text-align: center;
+	width: 25%;
 	height: 100%;
+	font-size: 3em;
+	display: flex;
+  	justify-content: center;
+ 	 /* align horizontal */
+ 	 align-items: center;
+ 	 /* align vertical */
+}
+
+.menu ul {
+	float: right;
+	margin: 0;		
+	height: 100%;
+	width: 75%;
 }
 
 .menu ul li {
 	display: table;
 	float: right;
-	width: 18%;
+	width: 24%;
 	height: 100%;
 	text-align: center;
+	border-left: solid black 1px;
 }
 
 .menu ul li span:hover{
@@ -50,7 +65,7 @@ a {
 
 .content {
 	text-align: justify;
-	margin: 0em 10% 0 10%;
+	margin: 0em 7em 0 7em;
 	background-color: white;
 	height: 200%;
 }
