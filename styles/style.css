@@ -67,3 +67,13 @@
 #text1 {
 	padding: 3em 3em 3em 3em;
 }
+
+#contact {
+	height: 100%;
+}
+
+@media (max-width: 1150px;) {
+	.menu {
+		display: none;
+	}
+}
