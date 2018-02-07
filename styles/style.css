@@ -6,6 +6,7 @@
 
 .menu {
 	position: sticky;
+	z-index: 1000;
 	top: 0px;
 	background-color: #BAC7F5;
 	width: 100%;
@@ -15,9 +16,9 @@
 
 #logo {
 	font-family: 'Orbitron', sans-serif;
-	position: absolute;
-	text-align: right;
-	width: 25%;
+	position: relative;
+	float: left;
+	text-align: left;
 	height: 100%;
 	margin-left: 8%;
 	font-size: 3em;
@@ -28,7 +29,7 @@
  	 /* align vertical */
 }
 
-#logo a {
+.menu a {
 	color: black;
 }
 
@@ -57,23 +58,120 @@
 	font-size: 1.5em;
 }
 
-.content {
-	text-align: justify;
-	margin: 0em 7em 0 7em;
+.page-title {
+	height: auto;
+	text-align: center;
+	font-size: 48px;
+	margin-bottom: 1em;
+	color: #8c8469;
+}
+
+.page-content {
+	margin: 0em 10em 0 10em;
+	padding: 5em;
 	background-color: white;
-	height: 200%;
+	height: auto;
 }
 
 #text1 {
-	padding: 3em 3em 3em 3em;
+	padding: 5em 5em 5em 5em;
 }
 
 #contact {
 	height: 100%;
 }
 
-@media (max-width: 1150px;) {
-	.menu {
+.-pc-content-column .-pc-content-column-wrapper {
+    padding: 0 30px;
+    position: relative;
+}
+
+.-pc-content-column.col-1 .-pc-content-column-wrapper {
+    padding-left: 0;
+}
+
+.-pc-content-column.col-2 .-pc-content-column-wrapper {
+    padding-right: 0;
+}
+
+.content-element{
+	position: relative;
+}
+
+.page-content img {
+	max-width: 100%;
+	height: auto;
+}
+
+hr {
+	border: 0;
+	width: 100%;
+	height: 1px;
+	background: #e5e5e5;
+	margin: 25px 0;
+}
+
+.allow-list li {
+	padding: 10px 5px !important;
+	border: 0 !important;	
+}
+
+.allow-list a {
+	display: block;
+	padding: 10px 5px;
+	margin: -10px -5px;
+	transition: all .4s ease;
+	color: #231f20;
+	position: relative;
+}
+.allow-list a:after {
+    background: url("../../images/next.png") no-repeat scroll 0 -7px rgba(0, 0, 0, 0);
+    content: "";
+    height: 17px;
+    width: 20px;
+    margin: -9px 0 0 10px;
+    position: absolute;
+    top: 50%;
+    width: 20px;
+	transition: all .2s ease;
+}
+
+.allow-list a:hover {
+	background: rgba(140,132,105,0.3);
+}
+
+.allow-list a:hover:after {
+	background-position: 5px -7px;
+}
+
+@media (max-width: 1023px) {
+	.-pc-content-column{
+		float: none !important;
+		width: 100% !important;
+	}	
+	.-pc-content-column .-pc-content-column-wrapper {
+	    padding: 0 !important;
+	}	
+	.company-col1, .company-col2 {
+		width: 100% !important;
+		float: none !important;
+		margin: 0 !important;
+	}
+	.cookie-popup {
+		right: 1.5%;
+		bottom: 1.5%;
+		min-width: 94%;
+		max-width: 94%;
+	}
+}
+
+@media (max-width: 599px) {
+	.back{ margin: 0 10px 0 0;	}
+}
+
+@media (max-width: 1150px) {
+	.menu ul {
 		display: none;
 	}
+
 }
