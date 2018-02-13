@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="styles/basic.css" type="text/css">
         <link rel="stylesheet" href="styles/style.css" type="text/css">
         <link rel="stylesheet" href="styles/my-slider.css"/>
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     </head>
     <body>
         <div class="container">
@@ -32,7 +33,7 @@
                     </ol>
                 </div>
             </div>
-            <div class="menu">
+            <div class="menu" id="menu">
                 <a href="index.html">
                 <div id="logo">             
                     <img src="img/logo.svg" alt="Strona Główna">
@@ -45,7 +46,17 @@
                     <a href="exp.html"><li><span>Doświadczenie</span></li></a>
                     <a href="projects.html"><li><span>Projekty</span></li></a>
                 </ul>
-            </div>   
+                <div id="menu-button" class></div>
+            </div>
+            <nav id="sidebar" style="">
+                <ul id="sidebar-list">
+                    <a href="projects.html"><li id="proj-top"><span>Projekty</span></li></a>
+                    <a href="exp.html"><li><span>Doświadczenie</span></li></a>
+                    <a href="offers.html"><li><span>Oferta</span></li></a>
+                    <a href="contact.html"><li><span>Kontakt</span></li></a>  
+                </ul>
+            </nav>
+
             <div class="page-content wrapper">
             <div class="page-title">
                 O firmie        
@@ -95,7 +106,7 @@
 
                         <p class="header1" style="margin: 0px 0 10px 0; text-align: justify;">
                             <span style="font-size: 25px; color: #8c8469;">Zarządzanie projektami</span>
-                            <br><br>ARCHITEQ PRACOWNIA ARCHITEKTONICZNA w oparciu o doświadczenie zdobyte w trakcie projektowania zróżnicowanych tematycznie projektów architektonicznych, zapewnia wszystkie składowe profesjonalnej realizacji projektu budowlanego i wykonawczego<br><br>Zarządzanie projektem to inaczej optymalizacja czasu i kosztów w procesie projektowym i realizacyjnym. Hasło przewodnie to:<br> <strong>EFEKTYWNIE, SKUTECZNIE, TERMINOWO</strong>.<br><br>Project Manager jest każdorazowo przydzielany do projektu, jest odpowiedzialny za skoordynowanie wszystkich branż projektowych oraz prac mających na celu zakończenie projektowania. Za dopilnowanie realizacji inwestycji odpowiedzialny jest koordynator realizacji projektu.<br><br>Naszym standardem jest oddanie naszemu klientowi gotowego produktu w postaci projektu,bądź uzyskaniu pozwolenia na użytkowanie w uzgodnionym terminie.
+                            <br><br>ARCHITEQ PRACOWNIA ARCHITEKTONICZNA w oparciu o doświadczenie zdobyte w trakcie projektowania zróżnicowanych tematycznie projektów architektonicznych, zapewnia wszystkie składowe profesjonalnej realizacji projektu budowlanego i wykonawczego<br><br>Zarządzanie projektem to inaczej optymalizacja czasu i kosztów w procesie projektowym i realizacyjnym. Hasło przewodnie to:<br>EFEKTYWNIE, SKUTECZNIE, TERMINOWO.<br><br>Project Manager jest każdorazowo przydzielany do projektu, jest odpowiedzialny za skoordynowanie wszystkich branż projektowych oraz prac mających na celu zakończenie projektowania. Za dopilnowanie realizacji inwestycji odpowiedzialny jest koordynator realizacji projektu.<br><br>Naszym standardem jest oddanie naszemu klientowi gotowego produktu w postaci projektu,bądź uzyskaniu pozwolenia na użytkowanie w uzgodnionym terminie.
                         </p>
 
                         </div>
@@ -139,7 +150,9 @@
                         </p>
 
                         <p style="text-align: justify; margin: 0 0 10px 0;">
-                            - 2008r. Założenie nowej działalności pod nazwą Architeq Pracownia Architektoniczna Sp. z o.o.<br>- 2009r. Rozpoczęcie działalności ogolnopolskiej, przygotowawyanie kolejnych wielkich projektów takich jak:  <br>- 2007r. Pierwsza realizacja i pierwszy projekt pod nazwą ZŁOTE TARASY - budynek zdobył pozytywną opinię całego miasta i nie tylko. W 2008 roku zdobyliśmy Srebrnego żurawia za tą właśnie inwestycję. <br>- 2006r. Rozpoczęcie pracy na terenie województwa świętokrzyskiego, łódzkiego oraz lubelskiego.<br>- 2005r. Założenie działalności na terenie Warszawy.
+                            - 2016r. Otrzymanie nagrody Pritzkera, jednej z najwiekszych nagród architektonicznych na świecie. <br>
+                            - 2015r. Projekt nowej siedziby Unii Europejskiej w Brukseli <br>
+                            - 2012r. Początek działalności za granicą, pierwsze projekty w Niemczech, Francji, Belgii. <br>- 2009r. Rozpoczęcie działalności ogolnopolskiej, przygotowawyanie kolejnych wielkich projektów takich jak np. Dworzec Centralny w Warszawie, Stadion Narodowy w Warszawie<br>- 2007r. Pierwsza realizacja i pierwszy projekt pod nazwą ZŁOTE TARASY - budynek zdobył pozytywną opinię całego miasta i nie tylko. W 2008 roku zdobyliśmy Srebrnego żurawia za tą właśnie inwestycję. <br>- 2006r. Rozpoczęcie pracy na terenie województwa świętokrzyskiego, łódzkiego oraz lubelskiego.<br>- 2005r. Założenie działalności na terenie Warszawy.
                         </p>
 
                         <hr>
@@ -171,8 +184,16 @@
                 </div>
             </div>          
             <div class="clear"></div>
+            <hr>
+            <div class="footer">
+                Wszelkie materiały na stronie i fragmenty kodu są wykorzystane w celach edukacyjnych, nie komercyjnych.
+                <br>
+                <span id="copyleft">&copy;</span> 2018 Architeq 
+            </div>
         </div>
+        <script src="scripts/jquery.js" type="text/javascript"></script>
         <script src="scripts/script1.js" type="text/javascript"></script>
         <script src="scripts/script2.js" type="text/javascript"></script>
+        <script src="scripts/script3.js" type="text/javascript"></script>
     </body>
 </html>
