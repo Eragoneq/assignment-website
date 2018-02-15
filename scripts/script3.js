@@ -14,21 +14,21 @@ var $menu = $('#sidebar');
 $('.button').on('click', function() {
   if ($(this).hasClass("active")){
     $(this).removeClass("active");
-    $(this).children("img").css('padding-left', '0px');
-    $(this).css('background-color', 'rgba(0,0,0,0)')
+    $(this).children("img").css('padding-left', '');
+    $(this).css('background-color', '')
 
     $('.tresc').css('display', 'none');
 
   } else {
-    $('.button').children("img").css('padding-left', '0px');
-    $('.button').css('background-color', 'rgba(0,0,0,0)')
+    $('.button').children("img").css('padding-left', '');
+    $('.button').css('background-color', '')
     $('.button').removeClass("active");
 
     $('.tresc').css('display', 'none');
 
     $(this).addClass("active");
     $(this).children("img").css('padding-left', '10px');
-    $(this).css('background-color', '#CFCFB0');
+    $(this).css('background-color', '#B4CFCD');
 
     switch($(this).attr('id')) {
       case 'b1':

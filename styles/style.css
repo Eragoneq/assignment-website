@@ -94,7 +94,7 @@
 }
 
 .page-content {
-	margin: 0em 10em 0 10em;
+	margin: 0 10% 0 10%;
 	padding: 5em 5em 2em 5em;
 	background-color: white;
 	height: auto;
@@ -188,8 +188,25 @@
 	height: 100%;
 }
 
-.informacje ul li{
+.informacje ul {
+	transition: all .4s ease;
+}
+
+.tresc {
 	display: none;
+}
+
+.certyfikaty {
+	width: 100%;
+	text-align: center;
+}
+
+.certyfikaty img {
+	padding: 2em;
+}
+
+#cert2 {
+	transform: translateY(-10%);
 }
 
 .footer {
@@ -221,6 +238,12 @@ hr {
 		width: 100% !important;
 		float: none !important;
 		margin: 0 !important;
+	}
+
+	#cert1, #cert2 {
+		padding: 0;
+		padding-top: 2em;
+		width: 100%;
 	}
 }
 
