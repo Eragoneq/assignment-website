@@ -50,12 +50,14 @@
 
 .menu ul li span:hover{
 	background-color: #8E98BA;
+	font-size: 1.6em;
 }
 
 .menu ul li span{
 	display: table-cell;
 	vertical-align: middle;
 	font-size: 1.5em;
+	transition: all .4s ease;
 }
 
 #menu-button {
@@ -141,13 +143,13 @@
 }
 
 .lista {
-	width: 33%;
+	width: 35%;
 }
 
 .lista ul {
 	margin: 0;		
 	height: 100%;
-	width: 60%;
+	width: 70%;
 }
 
 .lista ul li {
@@ -159,14 +161,35 @@
 	border-bottom: 1px solid #cfcfcf;
 }
 
-.lista ul li span:hover{
+.lista ul li img {
+	transform: translateY(25%);
+}
+
+.lista ul li:hover{
 	background-color: #cfcfcf;
+	transition: all .4s ease;
+	cursor: pointer;
 }
 
 .lista ul li span{
 	display: table-cell;
 	vertical-align: middle;
-	font-size: 1.5em;
+	font-size: 1.2em;
+	width: 92%;
+	transition: padding-right .4s ease;
+}
+
+.lista ul li span:hover {
+	padding-right: 15px;
+}
+
+.informacje {
+	width: 65%;
+	height: 100%;
+}
+
+.informacje ul li{
+	display: none;
 }
 
 .footer {
