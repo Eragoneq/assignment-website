@@ -1,7 +1,7 @@
 # eragoneq.github.io
 
-##Informacje:
-==============
+Informacje:
+-----------
 * responsyność strony (większość elementów wyświetla się odpowiednio na telefonie i innnych komputerach)
 * animacje przy najechaniu na przyciski
 * menu rozwijane z boku (gdy szerokość ekranu nie pozwala na wyswietlenie odpowiednie guzików menu)
