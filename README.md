@@ -1,6 +1,6 @@
-### eragoneq.github.io
+# eragoneq.github.io
 
-Informacje:
+##Informacje:
 ==============
 * responsyność strony (większość elementów wyświetla się odpowiednio na telefonie i innnych komputerach)
 * animacje przy najechaniu na przyciski
