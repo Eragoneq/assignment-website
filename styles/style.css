@@ -180,9 +180,13 @@ form textarea {
 }
 
 #galeria {
+	width: 100%;
 	display: block;
-	padding-left: 10%;
-	padding-right: 10%;
+}
+
+.ism-slider {
+	max-width: 100%;
+	margin: auto;
 }
 
 #contact {
