@@ -174,6 +174,17 @@ form textarea {
 	padding: 5em 5em 5em 5em;
 }
 
+#exp p {
+	font-size: 30px;
+	line-height: 1.5em;
+}
+
+#galeria {
+	display: block;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
 #contact {
 	height: 100%;
 }
@@ -193,11 +204,6 @@ form textarea {
 
 .content-element{
 	position: relative;
-}
-
-.page-content img {
-	max-width: 100%;
-	height: auto;
 }
 
 .mapa {
@@ -266,6 +272,8 @@ form textarea {
 
 .tresc {
 	display: none;
+	line-height: 1.5em;
+	font-size: 30px;
 }
 
 .certyfikaty {

@@ -198,12 +198,25 @@
             <hr>
             <h2 class="title">Skontaktuj się z nami:</h2>
             <div class="formularz">
+                <script type="text/javascript">
+                    function wysylanie(form){
+                        if(form.email.value==""){
+                            alert("Podaj adres e-mail");
+                        } else if(form.tresc.value==""){
+                            alert("Podaj treść wiadomości")
+                        } else {
+                        alert("Wysłano wiadomość");
+                        form.email.value = "";
+                        form.tresc.value = "";
+                        }
+                    };
+                </script>
                 <form>
                     <h4>E-mail:</h4>
                     <input type="text" name="email" id="email">
                     <h4>Treść:</h4>
                     <textarea type="text" name="tresc" id="tresc-form"></textarea>
-                    <input type="button" name="wyslij" id="wyslij-button" value="Wyślij wiadomość">
+                    <input type="button" name="wyslij" id="wyslij-button" value="Wyślij wiadomość" onclick="wysylanie(this.form)">
                 </form>
             </div>
 
