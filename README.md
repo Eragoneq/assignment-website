@@ -1,4 +1,4 @@
-# [eragoneq.github.io](eragoneq.github.io)
+# [eragoneq.github.io](https://eragoneq.github.io/)
 
 Informacje:
 -----------
