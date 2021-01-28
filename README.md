@@ -1,4 +1,4 @@
-# [eragoneq.github.io](https://eragoneq.github.io/)
+# Strona internetowa przygotowana na projekt
 
 Informacje:
 -----------
